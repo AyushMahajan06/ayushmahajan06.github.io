@@ -1,0 +1,230 @@
+#Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family:'CerebriSansPro-Thin',sans-serif;
+  font-size: 300%;
+  color: rgba(255, 255, 255, 0.923);
+  padding-bottom: 75px;
+}
+
+#Name{
+  align-items: flex-start;
+  cursor: default;
+  user-select: none;
+}
+
+#Socials {
+  align-items: flex-end;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  user-select: none;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+#Email{
+  color: white;
+  padding-left: 0.02%;
+}
+
+#Email:hover{
+  color: purple
+}
+
+#Github{
+  color: white;
+}
+
+#Github:hover{
+  color:brown;
+}
+
+#flex-container{
+  display: flex;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5%;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family:'Cerebri-SemiBold';
+  font-size: 250%;
+  color: rgb(255, 255, 255);
+  padding-bottom: 55px;
+  user-select: none;
+}
+
+.tab-content{
+  animation: fadeEffect 0.75s;
+}
+
+#About_button{
+  order: 1;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  padding-bottom: 20px;
+
+}
+
+#About_button:hover{
+  color: blueviolet
+}
+
+#Body{
+  display:flex;
+  justify-content: center;
+}
+
+#About{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.341);
+  border: rgba(0, 0, 0, 0.341);
+  border-radius: 15px;
+  width: 46%;
+  justify-content: space-between;
+  color: white;
+  padding-inline-start: 2%;
+  padding-inline-end: 2%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  font-family:'Cerebri-Regular';
+  font-size: xx-large;
+  line-height: 175%;
+}
+
+#about-pic{
+  display: flex;
+  border: transparent;
+  border-radius: 60px;
+  height :95%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#Project_button{
+  order: 2;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  padding-bottom: 20px;
+
+}
+
+#Project_button:hover{
+  color:aquamarine
+}
+
+#Project{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.341);
+  border: rgba(0, 0, 0, 0.341);
+  border-radius: 15px;
+  width: 46%;
+  justify-content: space-between;
+  color: white;
+  padding-inline-start: 2%;
+  padding-inline-end: 2%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  font-family:'Cerebri-Regular';
+  font-size: x-large;
+  line-height: 165%;
+}
+
+#VoW{
+  text-decoration: none;
+  color: burlywood;
+}
+
+#Web{
+  text-decoration: none;
+  color:darkgoldenrod;
+}
+
+#Achievement_button{
+  order: 3;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  padding-bottom: 20px;
+
+}
+#Achievement_button:hover{
+  color: greenyellow;
+}
+
+#Achieve{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.341);
+  border: rgba(0, 0, 0, 0.341);
+  border-radius: 15px;
+  width: 46%;
+  justify-content: space-between;
+  color: white;
+  padding-inline-start: 2%;
+  padding-inline-end: 2%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  font-family:'Cerebri-Regular';
+  font-size: x-large;
+  line-height: 165%;
+}
+
+body {
+  background-color: #052239;
+  margin: 2%;
+}
+
+
+@font-face {
+  font-family: 'CerebriSansPro-Thin';
+  src: url(CerebriSansPro-Thin.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CerebriSansPro-Bold';
+  src: url(CerebriSansPro-Bold.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cerebri-Regular';
+  src: url(CerebriSansPro-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cerebri-SemiBold';
+  src: url(CerebriSansPro-SemiBold.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (max-width: 1000px) {
+  #Titles{
+    flex-direction: column;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
